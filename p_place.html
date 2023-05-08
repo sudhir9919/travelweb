@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="p_place.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <title>Trip Advisor</title>
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+
+    
+  <section class="header">
+      <ul>
+         
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a class="active" href="p_place.html">Popular places</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        
+          
+          <button type="button" class="login-btn" data-target="#mymodel" data-toggle="modal">Login</button>
+          
+          <div class="modal" id="mymodel" tabindex="-1">
+          <div class="modal-dialog" >
+           <div class="modal-content">
+             <div class="modal-header">
+               <h3 class="text-primary">Login/Sign Up</h3>
+               <button type="button" class="close" data-dismiss="modal">&times</button>
+             </div>
+            <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label style="color:black"><i class="fa fa-user fa-2x"></i>User name: &nbsp;</label>
+                <input type="text" name="User Name" class="input" placeholder="User Name">
+              </div>
+              <div class="form-group">
+               <label style="color:black"><i class="fa fa-lock fa-2x"></i>Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" name="User Name" class="input" placeholder="Password">
+             </div>
+
+             <div class="form-group">
+               <label style="color:black"><i class="fa fa-envelope fa-2x"></i>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="email" name="User Name" class="input" placeholder="Email">
+             </div>
+
+
+            </form>
+
+            </div>
+
+            <div class="modal-footer justify-content-center">
+             <button class="btn btn-danger" data-dismiss="modal">Login</button>
+             <button class="btn btn-danger" data-dismiss="modal">SignUp</button>
+            </div>
+           </div>
+
+          </div>
+
+          </div>
+
+
+    <div class="container">
+        
+     <h1>Trip<img src="img/logo.png" alt="logo">Advisor</h1> 
+    </div>
+</section>
+
+<section class="features">
+        <h1><b>Popular Places</b></h1>
+        <div class="container">
+        <div class="row">
+
+                <div class="col-md-4">
+                        
+                        <div class="feature-box">
+                          <div class="feautre-img">
+                            <a href="https://en.wikipedia.org/wiki/Bora_Bora"  style="color:black"><img src="img/img26.jpg">
+                            <div class="price">
+                              <p>Rs50k</p>
+                            </div>
+                            <div class="rating">
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star" ></i>
+                               <i class="fa fa-star-half-o" ></i>
+                            </div>
+                          </div>
+                          <div class="feature-details">
+                                <h4>Bora Bora, French Polynesia</h4></a>
+                            <p>Far, far away in the vast South Pacific lies a dreamlike island with a dormant volcano at its heart, covered by thick jungle, surrounded by an emerald necklace of tiny</p>
+                            <div>
+                            <span><i class="fa fa-map-marker" ></i>Polynesia</span>
+                            <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                            <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                          </div>
+                           </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-4">
+                            <div class="feature-box">
+                              <div class="feautre-img">
+                                <a href="https://en.wikipedia.org/wiki/National_parks_of_New_Zealand"  style="color:black"> <img src="img/img27.jpg">
+                                <div class="price">
+                                  <p>Rs40k</p>
+                                </div>
+                                <div class="rating">
+                                   <i class="fa fa-star" ></i>
+                                   <i class="fa fa-star" ></i>
+                                   <i class="fa fa-star" ></i>
+                                   <i class="fa fa-star" ></i>
+                                   <i class="fa fa-star" ></i>
+                                </div>
+                              </div>
+                              <div class="feature-details">
+                                <h4>National Park, New Zealand</h4></a>
+                                <p>According to Maori legends, the 14 fjords that form Fiordland National Park were created by a giant stonemason named Tu Te Rakiwhano.</p>
+                                <div>
+                                <span><i class="fa fa-map-marker" ></i>New Zealand</span>
+                                <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                                <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                              </div>
+                               </div>
+                            </div>
+                          </div>
+
+
+                          <div class="col-md-4">
+                                <div class="feature-box">
+                                  <div class="feautre-img">
+                                    <a href="https://en.wikipedia.org/wiki/Geiranger_Fjord"  style="color:black"><img src="img/img28.jpg">
+                                    <div class="price">
+                                      <p>Rs45k</p>
+                                    </div>
+                                    <div class="rating">
+                                       <i class="fa fa-star" ></i>
+                                       <i class="fa fa-star" ></i>
+                                       <i class="fa fa-star" ></i>
+                                       <i class="fa fa-star" ></i>
+                                       <i class="fa fa-star-o" ></i>
+                                    </div>
+                                  </div>
+                                  <div class="feature-details">
+                                    <h4> Geiranger Fjord, Norway</h4></a>
+                                  <p>In the land of hundreds of magnificent fjords, Geiranger is considered Norway’s most beautiful: A spectacular creation by glaciers, this fjord is about 15 km long </p>
+                                   <div>
+                                    <span><i class="fa fa-map-marker" ></i>Paris</span>
+                                    <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                                    <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                                  </div>
+                                   </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-4">
+                                    <div class="feature-box">
+                                      <div class="feautre-img">
+                                        <a href="https://en.wikipedia.org/wiki/Victoria_Falls"  style="color:black"> <img src="img/img29.jpg">
+                                        <div class="price">
+                                          <p>Rs55k</p>
+                                        </div>
+                                        <div class="rating">
+                                           <i class="fa fa-star" ></i>
+                                           <i class="fa fa-star" ></i>
+                                           <i class="fa fa-star" ></i>
+                                           <i class="fa fa-star-half-o" ></i>
+                                           <i class="fa fa-star-o" ></i>
+                                        </div>
+                                      </div>
+                                      <div class="feature-details">
+                                        <h4>Victoria Falls, Zambia</h4></a>
+                                        <p>Aptly named Mosi-oa-Tunya – the Smoke that Thunders – by locals is a breathtaking spectacle of incomparable beauty and majesty. </p>
+                                        <div>
+                                        <span><i class="fa fa-map-marker" ></i>Zambia</span>
+                                        <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                                        <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                                      </div>
+                                       </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                        <div class="feature-box">
+                                          <div class="feautre-img">
+                                            <a href="https://en.wikipedia.org/wiki/Sossusvlei"  style="color:black"><img src="img/img30.jpg">
+                                            <div class="price">
+                                              <p>Rs42k</p>
+                                            </div>
+                                            <div class="rating">
+                                               <i class="fa fa-star" ></i>
+                                               <i class="fa fa-star" ></i>
+                                               <i class="fa fa-star" ></i>
+                                               <i class="fa fa-star-half-o" ></i>
+                                               <i class="fa fa-star-o" ></i>
+                                            </div>
+                                          </div>
+                                          <div class="feature-details">
+                                            <h4>Sossusvlei, Namibia</h4></a>
+                                           <p>Located in the Namibian Namib-Naukluft National Park in the southern part of the vast Namib Desert, Sossusvlei is a salt and clay pan.</p>
+                                            <div>
+                                            <span><i class="fa fa-map-marker" ></i>Namibia</span>
+                                            <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                                            <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                                          </div>
+                                           </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="col-md-4">
+                                            <div class="feature-box">
+                                              <div class="feautre-img">
+                                                <a href="https://en.wikipedia.org/wiki/Salar_de_Uyuni"  style="color:black"><img src="img/img31.jpg">
+                                                <div class="price">
+                                                  <p>Rs41k</p>
+                                                </div>
+                                                <div class="rating">
+                                                   <i class="fa fa-star" ></i>
+                                                   <i class="fa fa-star" ></i>
+                                                   <i class="fa fa-star" ></i>
+                                                   <i class="fa fa-star-half-o" ></i>
+                                                   <i class="fa fa-star-o" ></i>
+                                                </div>
+                                              </div>
+                                              <div class="feature-details">
+                                                <h4> Salar de Uyuni, Bolivia</h4></a>
+                                               <p>located high up in the Andes in southwest Bolivia at an altitude of 11,995 feet, is the largest salt flat in the world, covering over 4,086 square miles.</p>
+                                                <div>
+                                                <span><i class="fa fa-map-marker" ></i>Bolivia</span>
+                                                <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                                                <span><i class="fa fa-moon-o" ></i>3 Night</span>
+                                              </div>
+                                               </div>
+                                            </div>
+                                          </div>
+
+        <div class="col-md-4">
+          <div class="feature-box">
+            <div class="feautre-img">
+              <a href="https://en.wikipedia.org/wiki/Eiffel_Tower"  style="color:black"> <img src="img/img2.jpg">
+              <div class="price">
+                <p>Rs30k</p>
+              </div>
+              <div class="rating">
+                 <i class="fa fa-star" ></i>
+                 <i class="fa fa-star" ></i>
+                 <i class="fa fa-star" ></i>
+                 <i class="fa fa-star-half-o" ></i>
+                 <i class="fa fa-star-o" ></i>
+              </div>
+            </div>
+            <div class="feature-details">
+              <h4> Eiffel Tower</h4></a>
+              <p>The tower is 324 metres  tall, about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 metres .</p>
+            <div>
+              <span><i class="fa fa-map-marker" ></i>Paris</span>
+              <span><i class="fa fa-sun-o" ></i>4 Days</span>
+              <span><i class="fa fa-moon-o" ></i>3 Night</span>
+            </div>
+             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+           <div class="feature-box">
+               <div class="feautre-img">
+                <a href="https://en.wikipedia.org/wiki/Las_Vegas"  style="color:black"><img src="img/img3.jpg">
+                 <div class="price">
+                   <p>Rs20k</p>
+                 </div>
+                 <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                 </div>
+               </div>
+               <div class="feature-details">
+                 <h4> Las Vegas</h4></a>
+                 <p>Las Vegas , officially the City of Las Vegas and often known simply as Vegas, is the 28th-most populated city in the United States, and the county seat of Clark County. </p>
+                 <div>
+                 <span><i class="fa fa-map-marker" ></i>Nevada</span>
+                 <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                 <span><i class="fa fa-moon-o" ></i>3 Night</span>
+               </div>
+                </div>
+             </div>
+           </div>
+       
+     
+       <div class="col-md-4">
+           <div class="feature-box">
+               <div class="feautre-img">
+                <a href="https://en.wikipedia.org/wiki/COLOSSEUM"  style="color:black"><img src="img/img4.jpg">
+                 <div class="price">
+                   <p>Rs35k</p>
+                 </div>
+                 <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                 </div>
+               </div>
+               <div class="feature-details">
+                 <h4> COLOSSEUM</h4></a>
+                 <p>The Colosseum or Coliseum , also known as the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfi gghe] or Colosseo [kolosˈsɛːo]).</p>
+                 <div>
+                 <span><i class="fa fa-map-marker" ></i>Rome</span>
+                 <span><i class="fa fa-sun-o" ></i>4 Days</span>
+                 <span><i class="fa fa-moon-o" ></i>3 Night</span>
+               </div>
+                </div>
+             </div>
+           </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </section>
+
+
+      <div class="container">
+            <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+   
+              </div>
+  
+   <section class="footer">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                  <img src="img/logo.png" class="footer-logo">
+                  <p>Travel smart with a policy that covers loss of baggage, passport & trip cancellation. Insure your travel plans with cover for missed flight connections, trip cancellations.</p>
+          
+                </div>
+                <div class="col-md-3">
+                  <h4>Features</h4>
+                  <a href="wwww.facebook.com" style="color:white"><p>Deals & offers</p></a>
+            <a href="wwww.facebook.com" style="color:white"><p>Customer review</p></a>
+            <a href="wwww.facebook.com" style="color:white"><p>Cancellation policy</p></a>
+            <a href="wwww.facebook.com" style="color:white"><p>Cancellation policy</p></a>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Contacts</h4>
+                    <p><i class="fa fa-phone-square"></i>+91 9876543210</p>
+                    <p><i class="fa fa-envelope"></i>tripadvisore@gmail.com</p>
+                    <p><i class="fa fa-home"></i>Rajiv chauk,delhi,pin-201013</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <a href="https://www.facebook.com" style="color:white"><p><i class="fa fa-facebook-official"></i>Facebook</p></a>
+                <a href="https://www.youtube.com" style="color:white"><p><i class="fa fa-youtube-play"></i>YouTube</p></a>
+                <a href="https://twitter.com/login?lang=en" style="color:white"><p><i class="fa fa-twitter"></i>Twitter</p></a>
+            </div>
+            </div><hr>
+            <p class="copyright"><p><i class="fa fa-copyright"></i>All rights are reserved</p>
+          </div>
+        </section>
+        
+  
+
+
+</body>
+</html>

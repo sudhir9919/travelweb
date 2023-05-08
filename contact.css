@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    height:200px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    text-align: center;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    margin-right: 20px;
+    
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color:  rgb(127, 204, 127);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .header img{
+height: 100px;
+width: 100px;
+  }
+  .login-btn{
+      width: 100px;
+      padding: 8px 0;
+      outline: none !important;
+      border-radius: 50px;
+      background: transparent;
+      color: white;
+      float: right;
+     margin-top: 7px;
+     margin-right: 20px;
+  }
+  .header h2{
+      padding-top: 80px;
+      padding-bottom: 0px;
+      font-size: 55px;
+      font-style: oblique;
+      
+  }
+  .header h1{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 70px;
+   padding-right: 270px;
+}
+.container-fluid{
+    padding: 100px 0;
+}
+}
+.formBox{
+	margin-top: 90px;
+	padding: 50px;
+}
+.formBox  h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.inputBox{
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.inputBox .inputText{
+	position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+.inputBox .input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+	transform: translateY(-30px);
+	font-size: 18px;
+	opacity: 1;
+	color: #00bcd4;
+
+}
+textarea{
+	height: 100px !important;
+}
+.button{
+	width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #03A9F4;
+    color: #fff;
+}
+
+.footer{
+  padding: 70px 20px 20px;
+  background-image: linear-gradient(#2d557d,#9610fd);
+  color: white;
+ 
+}
+.footer-logo{
+  width: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer h4{
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer p{
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 35px;
+}
+.footer .row .fa{
+  padding-right: 20px;
+  font-size:20px;
+}
+.footer hr{
+  margin-top: 10px;
+  background: #efefef;
+}
+.fa-copyright{
+  margin: 0 5px;
+}
+.footer.copyright{
+  text-align: center;
+  font-size: 12px;
+}
